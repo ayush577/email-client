@@ -13,9 +13,10 @@ import { SignupComponent } from "./signup/signup.component";
 
 //ShareAble Component
 import { SharedModule } from "../shared/shared.module";
+import { SignoutComponent } from './signout/signout.component';
 
 @NgModule({
-  declarations: [SigninComponent, SignupComponent],
+  declarations: [SigninComponent, SignupComponent, SignoutComponent],
   imports: [CommonModule, AuthRoutingModule, ReactiveFormsModule, SharedModule],
 })
 export class AuthModule {}
