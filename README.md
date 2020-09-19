@@ -1,3 +1,9 @@
+### username - ayush577
+
+### password - 123456
+
+### emailme - ayush577@angular-email.com
+
 # Emailclient
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.7.

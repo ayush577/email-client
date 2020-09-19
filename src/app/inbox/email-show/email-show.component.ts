@@ -12,15 +12,13 @@ import { Email } from "../interface/email";
 export class EmailShowComponent implements OnInit {
   email: Email;
 
-  constructor(
-    private route: ActivatedRoute,
-  ) {
+  constructor(private route: ActivatedRoute) {
     this.email = this.route.snapshot.data.email;
     this.route.data.subscribe(({ email }) => {
       this.email = email;
+      console.log(email);
     });
   }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 }
